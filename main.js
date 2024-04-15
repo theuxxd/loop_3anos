@@ -5,11 +5,11 @@ function verificarTime() {
 
   while (continuarPerguntando) {
     
-    var respostaTime = prompt("Qual o melhor time?");
+    var respostaTime = prompt("Quem vai ser campeão da B 2024?");
 
     
-    if (respostaTime.toLowerCase() === "athlético pr") {
-      alert("Isso mesmo! O Athlético PR é o melhor time!");
+    if (respostaTime.toLowerCase() === "SANTOS") {
+      alert("Isso mesmo! O Santão vai subir!");
       continuarPerguntando = false; // Sai do loop após a resposta correta
     } else {
       alert("Não é isso! Tente novamente.");
